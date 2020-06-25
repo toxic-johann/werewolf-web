@@ -1,0 +1,23 @@
+{
+  "name": "werewolf-web",
+  "version": "1.0.0",
+  "description": "online werewolf",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "cp -r ../werewolf/packages/werewolf-web/dist/* ./ && gh-pages -d .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toxic-johann/werewolf-web.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/toxic-johann/werewolf-web/issues"
+  },
+  "homepage": "https://github.com/toxic-johann/werewolf-web#readme",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
