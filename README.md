@@ -1,2 +1,0 @@
-# werewolf-web
-online werewolf
